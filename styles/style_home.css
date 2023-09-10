@@ -1,0 +1,63 @@
+
+
+.video-bkg {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9){
+  .video-bkg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(max-aspect-ratio:16/9){
+  .video-bkg {
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+.quote {
+
+  color : White;
+  width: 55%;
+  padding-left: 1%;
+  padding-right: 3%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica;
+  }
+
+  .quote-content em span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appear 2s ease-in-out forwards;
+  }
+
+  @keyframes appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+.author {
+
+  text-transform: uppercase;
+  color: rgba(0,154,150,255);
+  text-align: right;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  font-family: Arial, Helvetica;
+}

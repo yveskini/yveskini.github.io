@@ -1,0 +1,116 @@
+.body{
+  color: white;
+
+  margin:0.1%;
+}
+.navbar {
+  margin: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-around;
+  width: 35%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0%;
+  position:relative;
+  left: 61.8%;
+
+  font-family:monospace;
+}
+
+.links{
+  margin: 0;
+  margin-top: 0;
+  display: flex;
+  gap: 3rem;
+  justify-content:space-around;
+  position:relative;
+  width: 100%;
+  background-color: darkred;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 8%;
+  left: 5%;
+  min-width: 450px;
+  border-radius: 0%;
+
+}
+
+
+p {
+    text-align: justify;
+    font-size: 1.8rem;
+    font-family: Times, Times New Roman, serif;
+      }
+
+
+h2 {
+  color:rgba(64, 224, 208,255);
+  font-size: 2.5rem;
+  font-family: Times, Times New Roman, serif}
+
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1rem;
+  color:white;
+  font-weight: bold;
+
+}
+
+.navbar li {
+
+list-style: none;
+}
+.navbar a:hover{
+color:grey;
+opacity:1.;
+transition: color 500ms;
+}
+
+.navbar a.active{
+color:black;
+transition: color 10ms;
+
+}
+
+
+.navbar a::before{
+  content: "";
+  display: block;
+  height: 5px;
+  background: grey;
+  bottom: :-0.75em;
+  left: 0;
+  right: 0;
+  transform: scale(0,1);
+  transition: transform ease-in-out 500ms;
+
+
+}
+
+.navbar a:hover::before{
+  transform: scale(1,1);
+}
+
+
+.navbar a.active::before{
+  content: "";
+  display: block;
+  height: 5px;
+  background: black;
+  bottom: :-0.75em;
+  left: 0;
+  right: 0;
+  transform: scale(0,1);
+  transition: transform ease-in-out 500ms;
+
+
+}
+
+.navbar a.active:hover::before{
+  transform: scale(1,1);
+}

@@ -1,0 +1,103 @@
+.body{
+
+  background-image:  linear-gradient(to right, rgba(25, 25, 70,0.7), black);
+
+}
+
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+            }
+
+  .my-photo{
+    display: flex;
+    width: 80%;
+    height: auto; /* Add this line to make sure height adjusts proportionally */
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px; /* Adjust the padding to your preference */
+
+
+
+  }
+
+
+  .about{
+      width: 90%;
+      width: 90%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 30%;
+      padding-bottom: 1%;
+
+  }
+
+  .big-block {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+  }
+
+  .image-block{
+    display: flex;
+    align-items: center;
+    padding-right: 0%;
+    padding-top: : 10%;
+    vertical-align:botto;
+
+
+  }
+
+  .text-block{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+  }
+
+  .text-block a {
+    text-decoration: none;
+    color:rgba(0,154,150,255);
+    opacity: 1;
+    font-weight: bold;
+    position: relative;
+
+  }
+
+  .text-block a:hover {
+
+    color: grey;
+
+  }
+
+  .imag-bottom{
+  height: 10vh;
+  }
+
+  .aboutme{
+
+    color: rgb(80, 200, 120);
+    margin-bottom: 0%;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    opacity: 0;
+    transform: translateY(0%);
+    animation: appear 2s ease-in-out forwards;
+  }
+
+  @keyframes appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
