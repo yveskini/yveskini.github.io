@@ -92,7 +92,7 @@ h2 {
     padding-top: 5%;
     opacity: 0;
     transform: translateY(0%);
-    animation: appear 2s ease-in-out forwards;
+    animation: appear 0s ease-in-out forwards;
   }
 
   @keyframes appear {
