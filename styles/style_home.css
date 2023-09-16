@@ -30,7 +30,7 @@
 .photo{
  display: flex;
   color : White;
-  width: 30%;
+  width: 60%;
   padding-left: 2%;
   padding-right: 3%;
   padding-top: 0%;
@@ -43,25 +43,26 @@
 
 .my-photo{
     display: inline-block;
-    width: 35%;
+    width: 30%;
     height: auto; /* Add this line to make sure height adjusts proportionally */
     border-radius: 50%;
     align-items: center;
     align-content: center;
     padding-right: 10px; /* Adjust the padding to your preference */
-
-.quote {
-
-  color : White;
-  width: 55%;
-  padding-left: 1%;
-  padding-right: 3%;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  font-size: 2rem;
-  text-align: center;
-  font-family: Arial, Helvetica;
   }
+
+.container{
+  display: grid;
+  grid-gap: 2%;
+  padding-right: 3%;
+  grid-template-columns: 1.7fr 1fr;
+}
+
+.proverb-container {
+  padding-left: 20%;
+
+}
+
 
   .quote-content em span {
     display: inline-block;
