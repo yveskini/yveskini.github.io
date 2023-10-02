@@ -66,8 +66,8 @@ h2 {
 
   .text-block a {
     text-decoration: none;
-    color:rgba(0,154,150,255);
-    opacity: 1;
+    color:rgb(255, 95, 21);
+    opacity: 0.75;
     font-weight: bold;
     position: relative;
 
