@@ -43,7 +43,7 @@
 
 .my-photo{
     display: inline-block;
-    width: 30%;
+    width: 24%;
     height: auto; /* Add this line to make sure height adjusts proportionally */
     border-radius: 50%;
     align-items: center;
