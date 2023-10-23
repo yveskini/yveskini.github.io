@@ -1,0 +1,92 @@
+.body{
+
+  background-image:  linear-gradient(to right, rgba(25, 25, 70,0.7), black);
+
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+  opacity: .85;
+  position: relative;
+
+}
+
+a:hover{
+color:grey;
+opacity:.8;
+transition: color 100ms;
+}
+
+.Papers{
+
+  width: 97%;
+  color: white;
+  opacity: 0.9;
+  flex: 1 1;
+  padding-left:1%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.3rem;
+
+}
+
+.paper-title{
+  padding-left: 1%;
+}
+
+
+.container{
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding-left:1%;
+  padding-bottom: 0%;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.3rem;
+
+
+}
+
+.container1{
+  width: 100%;
+  padding-right:0%;
+  padding-bottom: 0%;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.5rem;
+
+
+}
+
+.container2{
+
+  display: flex;
+  width: 100%;
+  padding-right:0%;
+  padding-bottom: 0%;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.5rem;
+
+
+}
+
+p{margin-top: 0%;
+margin-bottom: 2%;
+font-size: 1.5rem;}
+
+a{
+  color:rgb(255, 95, 21);
+  opacity: 0.6;
+}
